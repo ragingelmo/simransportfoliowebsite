@@ -1,11 +1,10 @@
 import './App.css';
 import React from 'react';
-import ReactDOM from 'react-dom'
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import {BrowserRouter as Router, Routes, Route} from 'react'
 import Home from './pages/Home'
-import Home from './pages/Projects'
-import Home from './pages/Experience'
-import Home from './pages/Contact'
+import Projects from './pages/Projects'
+import Experience from './pages/Experience'
+import Contact from './pages/Contact'
 
 function App() {
   return (
