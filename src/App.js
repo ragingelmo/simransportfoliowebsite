@@ -2,6 +2,10 @@ import './App.css';
 import React from 'react';
 import ReactDOM from 'react-dom'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import Home from './pages/Home'
+import Home from './pages/Projects'
+import Home from './pages/Experience'
+import Home from './pages/Contact'
 
 function App() {
   return (
