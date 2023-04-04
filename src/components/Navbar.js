@@ -21,8 +21,8 @@ function Navbar() {
                 }}
 
                 >
-                <Reorder/>
-            </button>
+                    <Reorder/>
+                </button>
             </div>
             <div className ="linkto">
                 <Link to ="/"> Home </Link>

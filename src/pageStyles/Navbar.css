@@ -3,7 +3,13 @@
     width: 100%;
     height: 100px;
     background: #30786d;
+    letter-spacing: normal;
+    text-align: center;
 
+}
+
+.navigation li {
+    display: inline;
 }
 
 .linkto {
@@ -15,9 +21,11 @@
     color: tan;
 }
 
-.navbar a {
+.navigationbar a {
     color: tan;
     text-decoration: none;
+    font-family: Optima, sans-serif;
+    font-style: italic;
     margin: 20px;
     font-size: 25px;
 }
