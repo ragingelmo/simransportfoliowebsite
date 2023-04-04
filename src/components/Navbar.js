@@ -1,12 +1,28 @@
-import React from "react";
-import {Link} from 'react-router-dom';
+import React, { useEffect, useState } from "react";
+import {Link, useLocation} from 'react-router-dom';
 import "../pageStyles/Navbar.css";
+import Reorder from "@mui/icons-material/Reorder";
 
 function Navbar() {
+    const [expandNavbar, setExpandNavbar] = useState(false);
+
+    const location = useLocation();
+
+    useEffect(() => {
+        setExpandNavbar(false);
+    }, [location]);
+
     return (
-        <div className ="navigationbar">
+        <div className ="navigationbar" id={expandNavbar ? "open" : "close"}> 
             <div className ="button1">
-            <button> </button>
+            <button 
+                onClick={() => {
+                    setExpandNavbar((prev) => !prev);
+                }}
+
+                >
+                <Reorder/>
+            </button>
             </div>
             <div className ="linkto">
                 <Link to ="/"> Home </Link>
