@@ -6,9 +6,26 @@
   flex-direction: column;
   font-family: "Optima", sans-serif;
   background-color: #30786d;
+  background-color: #30786d;
+  opacity: 0.9;
+  background-image: radial-gradient(circle at center center, #c9d1b0, #30786d), repeating-radial-gradient(circle at center center, #c9d1b0, #c9d1b0, 19px, transparent 38px, transparent 19px);
+  background-blend-mode: multiply;
+  color: tan
 }
 
 body {
+  animation:pulse 5s infinite;
   padding: 0;
   margin: 0;
 }
+
+@keyframes pulse {
+  0%, 100% {
+    background-color: #c9d1b0;
+  }
+  50% {
+    background-color: #30786d;
+  }
+}
+
+
