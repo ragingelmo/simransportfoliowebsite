@@ -2,7 +2,7 @@
 .navigationbar {
     width: 100%;
     height: 100px;
-    background: #301933;
+    background-image: linear-gradient(#301933, #30193358,#173a3592);
     letter-spacing: normal;
     text-align: center;
 
