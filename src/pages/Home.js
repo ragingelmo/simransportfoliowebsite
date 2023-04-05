@@ -6,7 +6,7 @@ import "../pageStyles/Home.css";
 
 function Home() {
     return (
-        <div>Home
+        <div>
             <div className="home">
                 <div className="about">
                     <h2> Hi, My Name is Simran</h2>
