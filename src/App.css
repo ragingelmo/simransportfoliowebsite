@@ -4,8 +4,8 @@
   height: auto;
   display: flex;
   flex-direction: column;
-  font-family: Optima, serif;
-  background-color: #d21e1e;
+  font-family: "Optima", sans-serif;
+  background-color: #30786d;
 }
 
 body {
