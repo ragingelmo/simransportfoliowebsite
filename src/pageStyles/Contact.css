@@ -1,0 +1,21 @@
+.container mt-5 {
+    width: 100%;
+    align-items: center;
+    font-family: "Optima", sans-serif;
+    color: #3e497a;
+}
+
+label {
+    display: block;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.form {
+    
+    align-items: center;
+}
